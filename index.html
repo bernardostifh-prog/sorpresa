@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cargando sistema...</title>
+    <style>
+        body { background-color: #0d1117; color: #58a6ff; font-family: 'Courier New', monospace; padding: 40px; }
+        .box { border: 1px solid #30363d; padding: 20px; border-radius: 8px; max-width: 400px; margin: auto; }
+        button { background: #238636; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-top: 15px; font-weight: bold; }
+        button:hover { background: #2ea043; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>> Inicializando protocolo de afecto...</p>
+        <p>> Analizando sentimientos hacia ti...</p>
+        <p>> <strong>Resultado: 100% compatibles.</strong></p>
+        <p>> ¿Deseas aceptar una cita?</p>
+        <button onclick="enviarWhatsApp()">SÍ ❤️</button>
+    </div>
+
+    <script>
+        function enviarWhatsApp() 
+            window.location.href = "https://wa.me/51982267600?text=¡Sí, acepto salir contigo! 💖";
+        }
+    </script>
+</body>
+</html>
